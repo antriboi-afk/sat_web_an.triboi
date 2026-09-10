@@ -1,0 +1,94 @@
+/* CONFIGURACIÓN GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+    line-height: 1.6;
+    padding-top: 30px;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    padding: 12px 20px;
+
+    background-color: #555;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.navbar a:hover {
+    background-color: #777;
+}
+
+.navbar a.activo {
+    background-color: white;
+    color: #444;
+}
+
+
+/* CONTENIDO */
+
+.contenedor {
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+
+/* TARJETAS */
+
+.tarjeta {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta ul {
+    padding-left: 25px;
+}
+
+.tarjeta li {
+    margin-bottom: 8px;
+}
