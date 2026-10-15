@@ -1,47 +1,178 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protección - Seguridad</title>
+    <title>Protección | Seguridad Informática</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <nav class="navbar">
-        <a href="index.html">Inicio</a>
-        <a href="informacion.html">Información</a>
-        <a href="amenazas.html">Amenazas</a>
-        <a href="proteccion.html" class="activo">Protección</a>
-    </nav>
+<nav class="navbar">
+    <a href="index.html">Inicio</a>
+    <a href="informacion.html">Información</a>
+    <a href="amenazas.html">Amenazas</a>
+    <a href="proteccion.html" class="activo">Protección</a>
+    <a href="noticias.html">Noticias</a>
+</nav>
 
-    <main class="contenedor">
+<header class="hero">
+    <h1>Protección informática</h1>
+    <p>Medidas para prevenir ataques, reducir vulnerabilidades y recuperar los datos.</p>
+</header>
 
-        <h1></h1>
+<main class="contenedor">
 
-        <section class="tarjeta">
-            <h2></h2>
+    <section class="tarjeta">
+        <h2>1. Contraseñas seguras</h2>
+        <p>
+            Una contraseña debe ser larga, única y difícil de adivinar.
+            Es preferible utilizar frases de contraseña o un gestor que
+            genere claves aleatorias.
+        </p>
+        <ul>
+            <li>No reutilizar contraseñas entre servicios.</li>
+            <li>No compartir claves ni guardarlas en lugares públicos.</li>
+            <li>Activar la autenticación multifactor cuando esté disponible.</li>
+            <li>Limitar los intentos de inicio de sesión y bloquear intentos sospechosos.</li>
+        </ul>
+    </section>
 
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+    <section class="tarjeta">
+        <h2>2. Antivirus y cortafuegos</h2>
+        <p>
+            El antivirus o antimalware ayuda a detectar, bloquear y eliminar
+            programas maliciosos. Debe mantenerse actualizado.
+        </p>
+        <p>
+            El cortafuegos (firewall) controla el tráfico de red según unas
+            reglas y ayuda a impedir comunicaciones no autorizadas.
+        </p>
+        <p>
+            Ninguna de estas herramientas garantiza una protección total,
+            por lo que deben combinarse con otras medidas.
+        </p>
+    </section>
 
-        </section>
+    <section class="tarjeta">
+        <h2>3. Actualizaciones de seguridad</h2>
+        <p>
+            Las actualizaciones corrigen errores y vulnerabilidades que
+            podrían aprovechar los atacantes. Hay que actualizar el sistema
+            operativo, el navegador, las aplicaciones y los dispositivos
+            de red.
+        </p>
+    </section>
 
-        <section class="tarjeta">
-            <h2></h2>
-            <p>
-                
-            </p>
-        </section>
+    <section class="tarjeta">
+        <h2>4. Copias de seguridad</h2>
+        <p>
+            Las copias de seguridad permiten recuperar información perdida
+            por averías, errores humanos o ransomware.
+        </p>
+        <ul>
+            <li>Realizar copias con una frecuencia adecuada.</li>
+            <li>Mantener al menos una copia separada del equipo principal.</li>
+            <li>Proteger las copias frente a accesos no autorizados.</li>
+            <li>Comprobar periódicamente que los datos se pueden restaurar.</li>
+        </ul>
+    </section>
 
-    </main>
+    <section class="tarjeta">
+        <h2>5. Criptografía</h2>
+        <p>
+            La criptografía protege la información mediante técnicas
+            matemáticas. El cifrado permite que los datos solo puedan
+            leerse con las claves apropiadas.
+        </p>
+
+        <h3>Cifrado simétrico</h3>
+        <p>
+            Utiliza una misma clave secreta para cifrar y descifrar.
+            Es eficiente, pero esa clave debe compartirse de forma segura.
+        </p>
+
+        <h3>Cifrado asimétrico</h3>
+        <p>
+            Utiliza una pareja de claves relacionadas: una pública y otra
+            privada. La privada debe mantenerse protegida.
+        </p>
+    </section>
+
+    <section class="tarjeta">
+        <h2>6. Firma digital y certificados</h2>
+        <p>
+            Una firma digital permite comprobar la autenticidad de un
+            documento y detectar si ha sido modificado. Los certificados
+            digitales ayudan a vincular una identidad con una clave pública.
+        </p>
+        <p>
+            En España se pueden consultar los servicios de la
+            <a href="https://www.sede.fnmt.gob.es/" target="_blank" rel="noopener noreferrer">FNMT</a>
+            y del
+            <a href="https://www.dnielectronico.es/" target="_blank" rel="noopener noreferrer">DNI electrónico</a>.
+        </p>
+    </section>
+
+    <section class="tarjeta">
+        <h2>7. Control de acceso</h2>
+        <p>
+            Las listas de control de acceso (ACL) determinan qué usuarios
+            pueden leer, modificar o ejecutar determinados recursos.
+        </p>
+        <p>
+            Debemos conceder solo los permisos necesarios para cada persona.
+            Este principio se conoce como mínimo privilegio.
+        </p>
+    </section>
+
+    <section class="tarjeta">
+        <h2>8. Seguridad física</h2>
+        <p>
+            También hay que proteger los equipos frente a robos, incendios,
+            inundaciones y fallos eléctricos.
+        </p>
+        <ul>
+            <li>Restringir el acceso a las salas de servidores.</li>
+            <li>Utilizar sistemas de alimentación ininterrumpida (SAI).</li>
+            <li>Controlar la temperatura y la humedad.</li>
+            <li>Instalar sistemas de detección de incendios.</li>
+        </ul>
+    </section>
+
+    <section class="tarjeta">
+        <h2>9. Análisis y prevención</h2>
+        <p>
+            Las herramientas de análisis de vulnerabilidades, como OpenVAS,
+            permiten detectar posibles fallos en sistemas autorizados.
+            Después hay que evaluar los resultados y aplicar las correcciones.
+        </p>
+        <p>
+            Para estudiar malware también se puede recurrir a un sandbox:
+            un entorno aislado que permite observar programas sospechosos
+            reduciendo el riesgo para el equipo real.
+        </p>
+    </section>
+
+    <section class="tarjeta">
+        <h2>10. Hábitos seguros en Internet</h2>
+        <ul>
+            <li>Verificar los enlaces antes de abrirlos.</li>
+            <li>Descargar aplicaciones desde fuentes oficiales.</li>
+            <li>No abrir adjuntos inesperados.</li>
+            <li>Revisar los permisos de las aplicaciones y la geolocalización.</li>
+            <li>Evitar conectar memorias USB desconocidas.</li>
+            <li>No publicar información personal innecesaria.</li>
+            <li>Desconfiar de mensajes que exigen actuar inmediatamente.</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>Seguridad Informática · SAD · 2AS3A</p>
+</footer>
 
 </body>
 </html>

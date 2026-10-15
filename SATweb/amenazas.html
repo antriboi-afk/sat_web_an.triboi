@@ -1,54 +1,259 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amenazas - Seguridad</title>
+    <title>Amenazas | Seguridad Informática</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <nav class="navbar">
-        <a href="index.html">Inicio</a>
-        <a href="informacion.html">Información</a>
-        <a href="amenazas.html" class="activo">Amenazas</a>
-        <a href="proteccion.html">Protección</a>
-    </nav>
+<nav class="navbar">
+    <a href="index.html">Inicio</a>
+    <a href="informacion.html">Información</a>
+    <a href="amenazas.html" class="activo">Amenazas</a>
+    <a href="proteccion.html">Protección</a>
+    <a href="noticias.html">Noticias</a>
+</nav>
 
-    <main class="contenedor">
+<header class="hero">
+    <h1>Amenazas informáticas</h1>
+    <p>Conoce los ataques, el malware y las técnicas que pueden poner en peligro tus datos.</p>
+</header>
 
-        <h1></h1>
+<main class="contenedor">
 
-        <section class="tarjeta">
-            <h2>Troyano</h2>
+    <section class="tarjeta">
+        <h2>¿Qué es el malware?</h2>
+        <p>
+            Malware es el término general utilizado para referirse al software
+            malicioso diseñado para robar información, dañar equipos, espiar
+            a usuarios o permitir accesos no autorizados.
+        </p>
+        <p>
+            Sus efectos pueden afectar a la confidencialidad, la integridad
+            y la disponibilidad de un sistema.
+        </p>
+    </section>
+
+    <div class="grid">
+
+        <article class="tarjeta">
+            <span class="etiqueta">Ingeniería social</span>
+            <h3>Phishing (suplantación)</h3>
             <p>
-                
+                Es una estafa que utiliza correos, mensajes o páginas falsas
+                que parecen pertenecer a entidades legítimas para conseguir
+                contraseñas, datos bancarios u otra información confidencial.
             </p>
-        </section>
-
-        <section class="tarjeta">
-            <h2>Backdoors</h2>
             <p>
-                
+                <strong>Ejemplo:</strong> un mensaje falso del banco que solicita
+                confirmar la contraseña mediante un enlace.
             </p>
-        </section>
+            <p><strong>Prevención:</strong> comprobar el dominio, evitar enlaces sospechosos y acceder a la web oficial directamente.</p>
+        </article>
 
-        <section class="tarjeta">
-            <h2>Spyware</h2>
+        <article class="tarjeta">
+            <span class="etiqueta">Disponibilidad</span>
+            <h3>Ataque DoS y DDoS</h3>
             <p>
-                
+                Un ataque DoS intenta dejar un servicio fuera de funcionamiento
+                mediante una sobrecarga de peticiones o el agotamiento de sus
+                recursos. En un DDoS intervienen numerosos dispositivos
+                distribuidos.
             </p>
-        </section>
-
-        <section class="tarjeta">
-            <h2>Stealers</h2>
             <p>
-                
+                <strong>Ejemplo:</strong> una página web deja de responder
+                porque recibe más solicitudes de las que puede atender.
             </p>
-        </section>
+            <p><strong>Prevención:</strong> filtrado de tráfico, monitorización y servicios de mitigación de DDoS.</p>
+        </article>
 
-    </main>
+        <article class="tarjeta">
+            <span class="etiqueta">Malware</span>
+            <h3>Troyano</h3>
+            <p>
+                Es un programa malicioso que se presenta como si fuera legítimo.
+                Al ejecutarlo, puede instalar malware, robar datos o permitir
+                que otra persona controle el equipo.
+            </p>
+            <p>
+                A diferencia de un gusano, un troyano no se caracteriza por
+                autorreplicarse automáticamente.
+            </p>
+            <p><strong>Prevención:</strong> descargar programas de fuentes fiables, actualizar el sistema y utilizar protección antimalware.</p>
+        </article>
+
+        <article class="tarjeta">
+            <span class="etiqueta">Acceso no autorizado</span>
+            <h3>Backdoors o puertas traseras</h3>
+            <p>
+                Son mecanismos que permiten acceder a un sistema evitando
+                algunos controles normales de autenticación. Pueden ser
+                instalados por malware o existir por errores de configuración.
+            </p>
+            <p>
+                Una puerta trasera puede permitir que un atacante vuelva
+                a entrar después de haber comprometido el equipo.
+            </p>
+            <p><strong>Prevención:</strong> revisar accesos, cerrar servicios innecesarios y mantener los equipos actualizados.</p>
+        </article>
+
+        <article class="tarjeta">
+            <span class="etiqueta">Espionaje</span>
+            <h3>Spyware</h3>
+            <p>
+                Es un programa que recopila información sobre el equipo o
+                las actividades del usuario sin su conocimiento o
+                consentimiento adecuado.
+            </p>
+            <p>
+                Puede recopilar hábitos de navegación, información personal
+                y otros datos sensibles.
+            </p>
+            <p><strong>Prevención:</strong> revisar permisos, evitar descargas dudosas y utilizar herramientas de seguridad.</p>
+        </article>
+
+        <article class="tarjeta">
+            <span class="etiqueta">Robo de información</span>
+            <h3>Stealers</h3>
+            <p>
+                Son programas maliciosos especializados en robar información
+                almacenada en un dispositivo, como credenciales guardadas,
+                cookies de sesión, datos del navegador o carteras de
+                criptomonedas.
+            </p>
+            <p>
+                La información robada puede utilizarse para acceder a cuentas
+                o cometer fraudes.
+            </p>
+            <p><strong>Prevención:</strong> utilizar autenticación multifactor, actualizar el equipo y no ejecutar archivos sospechosos.</p>
+        </article>
+
+        <article class="tarjeta">
+            <span class="etiqueta">Malware histórico</span>
+            <h3>Koobface</h3>
+            <p>
+                Koobface fue una familia de malware que se propagó mediante
+                redes sociales y mensajes que parecían proceder de amigos.
+                Sus campañas utilizaban enlaces engañosos y descargas
+                maliciosas para infectar equipos.
+            </p>
+            <p>
+                Los dispositivos infectados podían convertirse en parte
+                de una red controlada por los atacantes.
+            </p>
+            <p><strong>Lección:</strong> no confiar automáticamente en enlaces enviados por contactos conocidos.</p>
+        </article>
+
+        <article class="tarjeta">
+            <span class="etiqueta">Red de equipos infectados</span>
+            <h3>Botnet</h3>
+            <p>
+                Es una red de ordenadores o dispositivos infectados que
+                un ciberdelincuente controla de forma remota. Cada dispositivo
+                comprometido puede actuar como un ordenador zombi.
+            </p>
+            <p>
+                Las botnets se utilizan para enviar spam, distribuir malware,
+                robar información y realizar ataques DDoS.
+            </p>
+            <p>
+                <strong>Síntomas posibles:</strong> conexión lenta, actividad
+                de red desconocida o mensajes enviados sin permiso. Estos
+                síntomas por sí solos no confirman una infección.
+            </p>
+            <p><strong>Prevención:</strong> actualizar dispositivos, utilizar cortafuegos y evitar software de procedencia dudosa.</p>
+        </article>
+
+        <article class="tarjeta">
+            <span class="etiqueta">Contraseñas</span>
+            <h3>Ataque de fuerza bruta</h3>
+            <p>
+                Consiste en intentar numerosas combinaciones de contraseñas
+                hasta encontrar la correcta. El ataque de diccionario es
+                una variante que prueba palabras y claves comunes.
+            </p>
+            <p>
+                Las contraseñas largas y únicas dificultan estos ataques.
+                También es importante limitar los intentos de acceso.
+            </p>
+            <p><strong>Prevención:</strong> utilizar contraseñas robustas, un gestor de contraseñas y autenticación multifactor.</p>
+        </article>
+
+        <article class="tarjeta">
+            <span class="etiqueta">Control del sistema</span>
+            <h3>Rootkit</h3>
+            <p>
+                Es un conjunto de herramientas maliciosas diseñado para
+                ocultar la presencia de un atacante o de otros componentes
+                maliciosos dentro de un sistema.
+            </p>
+            <p><strong>Prevención:</strong> mantener el sistema actualizado y analizar incidentes con herramientas de seguridad fiables.</p>
+        </article>
+
+        <article class="tarjeta">
+            <span class="etiqueta">Extorsión</span>
+            <h3>Ransomware</h3>
+            <p>
+                Es un tipo de malware que cifra archivos o bloquea el acceso
+                a un sistema y exige un rescate para intentar recuperarlo.
+            </p>
+            <p>
+                Pagar no garantiza recuperar los datos. Las copias de
+                seguridad aisladas son esenciales para la recuperación.
+            </p>
+        </article>
+
+        <article class="tarjeta">
+            <span class="etiqueta">Propagación</span>
+            <h3>Gusanos informáticos</h3>
+            <p>
+                Son programas capaces de replicarse y propagarse entre
+                equipos, por ejemplo, aprovechando vulnerabilidades de red.
+                Pueden consumir recursos e instalar otras amenazas.
+            </p>
+            <p><strong>Prevención:</strong> aplicar actualizaciones, utilizar cortafuegos y analizar archivos sospechosos.</p>
+        </article>
+
+    </div>
+
+    <section class="tarjeta">
+        <h2>Otras amenazas que debemos conocer</h2>
+        <ul>
+            <li><strong>Adware:</strong> software que muestra publicidad no deseada.</li>
+            <li><strong>Keylogger:</strong> programa que registra las pulsaciones del teclado.</li>
+            <li><strong>Pharming:</strong> técnica que redirige al usuario hacia páginas fraudulentas.</li>
+            <li><strong>Spam:</strong> mensajes no solicitados enviados masivamente.</li>
+            <li><strong>Exploit:</strong> código o técnica que aprovecha una vulnerabilidad.</li>
+            <li><strong>Bug:</strong> error de software que puede causar fallos y, en algunos casos, vulnerabilidades.</li>
+            <li><strong>Hoax:</strong> bulo o falsa alerta que se difunde entre usuarios.</li>
+            <li><strong>Hijacker:</strong> software que modifica el navegador o sus redirecciones sin permiso.</li>
+        </ul>
+    </section>
+
+    <section class="tarjeta">
+        <h2>¿Qué hacer ante una posible infección?</h2>
+        <ol>
+            <li>Desconectar el dispositivo de la red si hay indicios de actividad maliciosa.</li>
+            <li>No introducir contraseñas desde el equipo sospechoso.</li>
+            <li>Analizar el dispositivo con herramientas de seguridad fiables.</li>
+            <li>Cambiar las contraseñas desde un dispositivo limpio y cerrar sesiones abiertas.</li>
+            <li>Restaurar los datos desde copias de seguridad seguras cuando corresponda.</li>
+        </ol>
+        <p>
+            En un equipo de empresa o del centro educativo, avisa al
+            responsable informático antes de eliminar archivos o modificar
+            el sistema, especialmente si hay que investigar el incidente.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>Seguridad Informática · SAD · 2AS3A</p>
+</footer>
 
 </body>
 </html>

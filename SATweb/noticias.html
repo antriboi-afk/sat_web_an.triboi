@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias | Seguridad Informática</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="index.html">Inicio</a>
+    <a href="informacion.html">Información</a>
+    <a href="amenazas.html">Amenazas</a>
+    <a href="proteccion.html">Protección</a>
+    <a href="noticias.html" class="activo">Noticias</a>
+</nav>
+
+<header class="hero">
+    <h1>Ciberataques que hicieron historia</h1>
+    <p>Casos reales para comprender los riesgos de la seguridad informática.</p>
+</header>
+
+<main class="contenedor">
+
+    <section class="tarjeta">
+        <span class="etiqueta">2010 · Malware industrial</span>
+        <h2>Stuxnet: el ataque a la central de Natanz</h2>
+
+        <p><strong>¿Qué ocurrió?</strong></p>
+        <p>
+            Stuxnet fue un gusano informático diseñado para atacar sistemas
+            de control industrial. Se hizo conocido por su relación con
+            las instalaciones nucleares de Natanz, en Irán, donde se
+            utilizaban centrifugadoras para enriquecer uranio.
+        </p>
+
+        <p><strong>Características del ataque</strong></p>
+        <ul>
+            <li>Estaba dirigido a sistemas industriales específicos.</li>
+            <li>Podía alterar el funcionamiento de equipos controlados por sistemas informáticos.</li>
+            <li>Intentaba ocultar sus efectos y dificultar su detección.</li>
+            <li>Demostró que el malware podía causar daños en equipos físicos, no solo en archivos.</li>
+        </ul>
+
+        <p><strong>Impacto</strong></p>
+        <p>
+            Un informe del Institute for Science and International Security
+            relacionó Stuxnet con la avería y sustitución de aproximadamente
+            1.000 centrifugadoras en Natanz durante 2009 y 2010. La cifra
+            es una estimación basada en los datos disponibles, no un recuento
+            definitivo confirmado de todas las máquinas destruidas.
+        </p>
+
+        <p><strong>¿Qué podemos aprender?</strong></p>
+        <p>
+            Los sistemas industriales también necesitan actualizaciones,
+            control de acceso, segmentación de redes, monitorización y
+            medidas que impidan ejecutar software no autorizado.
+        </p>
+
+        <a class="boton"
+           href="https://isis-online.org/isis-reports/did-stuxnet-take-out-1000-centrifuges-at-the-natanz-enrichment-plant/"
+           target="_blank" rel="noopener noreferrer">
+            Leer informe sobre Stuxnet
+        </a>
+    </section>
+
+    <section class="tarjeta">
+        <span class="etiqueta">2017 · Ransomware</span>
+        <h2>WannaCry: un ataque mundial</h2>
+
+        <p><strong>¿Qué ocurrió?</strong></p>
+        <p>
+            En mayo de 2017, WannaCry se propagó rápidamente por numerosos
+            países. Era una combinación de ransomware y gusano informático:
+            cifraba archivos y exigía un rescate, mientras se extendía
+            automáticamente entre equipos Windows vulnerables.
+        </p>
+
+        <p><strong>Características del ataque</strong></p>
+        <ul>
+            <li>Aprovechaba una vulnerabilidad del protocolo SMB de Windows en equipos sin las actualizaciones necesarias.</li>
+            <li>Podía propagarse por la red sin que cada víctima tuviera que abrir un archivo.</li>
+            <li>Cifraba archivos y mostraba una petición de rescate.</li>
+            <li>Afectó a organizaciones y usuarios de numerosos países.</li>
+        </ul>
+
+        <p><strong>Impacto</strong></p>
+        <p>
+            Las estimaciones europeas situaron el alcance inicial en más
+            de 200.000 equipos afectados en más de 150 países. El incidente
+            perjudicó a empresas y servicios esenciales, incluidos centros
+            sanitarios y procesos industriales.
+        </p>
+
+        <p><strong>¿Qué podemos aprender?</strong></p>
+        <p>
+            Hay que instalar los parches de seguridad, mantener copias
+            de seguridad aisladas y disponer de un plan de respuesta
+            ante incidentes. Pagar el rescate no garantiza recuperar
+            los archivos.
+        </p>
+
+        <a class="boton"
+           href="https://www.europol.europa.eu/wannacry-ransomware"
+           target="_blank" rel="noopener noreferrer">
+            Leer noticia en Europol
+        </a>
+
+        <a class="boton"
+           href="https://www.enisa.europa.eu/news/enisa-news/wannacry-ransomware-first-ever-case-of-cyber-cooperation-at-eu-level"
+           target="_blank" rel="noopener noreferrer">
+            Leer información de ENISA
+        </a>
+    </section>
+
+    <section class="tarjeta">
+        <h2>Comparación de los dos ataques</h2>
+
+        <div class="grid">
+            <article>
+                <h3>Stuxnet</h3>
+                <p><strong>Objetivo:</strong> sistemas industriales.</p>
+                <p><strong>Tipo:</strong> gusano y malware dirigido.</p>
+                <p><strong>Consecuencia:</strong> daños físicos en equipos industriales.</p>
+            </article>
+
+            <article>
+                <h3>WannaCry</h3>
+                <p><strong>Objetivo:</strong> equipos Windows vulnerables.</p>
+                <p><strong>Tipo:</strong> gusano y ransomware.</p>
+                <p><strong>Consecuencia:</strong> archivos cifrados e interrupción de servicios.</p>
+            </article>
+        </div>
+
+        <p>
+            Ambos casos muestran que una amenaza informática puede afectar
+            a la disponibilidad de los sistemas. Sin embargo, Stuxnet destacó
+            por sus efectos sobre equipos industriales, mientras que WannaCry
+            destacó por su propagación internacional y el bloqueo de archivos.
+        </p>
+    </section>
+
+    <section class="tarjeta">
+        <h2>Más recursos y noticias</h2>
+        <ul>
+            <li>
+                <a href="https://www.incibe.es/ciudadania" target="_blank" rel="noopener noreferrer">
+                    INCIBE: consejos y alertas de ciberseguridad
+                </a>
+            </li>
+            <li>
+                <a href="https://www.osi.es/" target="_blank" rel="noopener noreferrer">
+                    Oficina de Seguridad del Internauta (OSI)
+                </a>
+            </li>
+            <li>
+                <a href="https://www.enisa.europa.eu/" target="_blank" rel="noopener noreferrer">
+                    ENISA: Agencia de la Unión Europea para la Ciberseguridad
+                </a>
+            </li>
+            <li>
+                <a href="https://www.europol.europa.eu/" target="_blank" rel="noopener noreferrer">
+                    Europol: información sobre ciberdelincuencia
+                </a>
+            </li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>Seguridad Informática · SAD · 2AS3A</p>
+</footer>
+
+</body>
+</html>

@@ -1,40 +1,139 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Información - Seguridad</title>
+    <title>Información | Seguridad Informática</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <nav class="navbar">
-        <a href="index.html">Inicio</a>
-        <a href="informacion.html" class="activo">Información</a>
-        <a href="amenazas.html">Amenazas</a>
-        <a href="proteccion.html">Protección</a>
-    </nav>
+<nav class="navbar">
+    <a href="index.html">Inicio</a>
+    <a href="informacion.html" class="activo">Información</a>
+    <a href="amenazas.html">Amenazas</a>
+    <a href="proteccion.html">Protección</a>
+    <a href="noticias.html">Noticias</a>
+</nav>
 
-    <main class="contenedor">
+<header class="hero">
+    <h1>Conceptos de seguridad</h1>
+    <p>Principios fundamentales, vulnerabilidades y tipos de amenazas.</p>
+</header>
 
-        <h1></h1>
+<main class="contenedor">
 
-        <section class="tarjeta">
-            <h2>Phishing</h2>
-            <p>
-                
-            </p>
-        </section>
+    <section class="tarjeta">
+        <h2>Autenticación</h2>
+        <p>
+            Consiste en comprobar que un usuario es quien dice ser.
+            Puede realizarse mediante contraseñas, huellas dactilares,
+            reconocimiento facial o códigos de verificación.
+        </p>
+        <p>
+            La autenticación multifactor combina dos o más métodos
+            diferentes para dificultar los accesos no autorizados.
+        </p>
+    </section>
 
-        <section class="tarjeta">
-            <h2>Ataque DoS</h2>
-            <p>
-                
-            </p>
-        </section>
+    <section class="tarjeta">
+        <h2>No repudio</h2>
+        <p>
+            Es la capacidad de demostrar que una persona participó en una
+            comunicación o realizó una acción, de modo que no pueda negarla
+            posteriormente cuando existen pruebas válidas.
+        </p>
+        <p>
+            La firma digital puede ayudar a demostrar la identidad del
+            firmante y detectar modificaciones en un documento.
+        </p>
+    </section>
 
-    </main>
+    <section class="tarjeta">
+        <h2>Vulnerabilidades y amenazas</h2>
+        <p>
+            Una vulnerabilidad es un punto débil de un sistema que puede
+            ser aprovechado. Una amenaza es una circunstancia capaz de
+            causar daño, mientras que un ataque es una acción que intenta
+            aprovechar una debilidad o comprometer el sistema.
+        </p>
+        <ul>
+            <li><strong>Vulnerabilidad:</strong> un sistema operativo sin actualizar.</li>
+            <li><strong>Amenaza:</strong> un atacante que intenta aprovechar el fallo.</li>
+            <li><strong>Impacto:</strong> robo de datos o interrupción del servicio.</li>
+        </ul>
+    </section>
+
+    <section class="tarjeta">
+        <h2>Tipos de amenazas lógicas</h2>
+
+        <h3>Intercepción</h3>
+        <p>
+            Un intruso accede a información sin permiso, por ejemplo,
+            capturando comunicaciones sin cifrar. Afecta principalmente
+            a la confidencialidad.
+        </p>
+
+        <h3>Interrupción</h3>
+        <p>
+            Un sistema o servicio deja de funcionar correctamente.
+            Un ataque de denegación de servicio es un ejemplo y afecta
+            a la disponibilidad.
+        </p>
+
+        <h3>Modificación</h3>
+        <p>
+            Se alteran datos o mensajes sin autorización, lo que puede
+            comprometer su integridad.
+        </p>
+
+        <h3>Fabricación</h3>
+        <p>
+            Se crea información falsa que parece auténtica, como un correo
+            fraudulento que suplanta a un banco.
+        </p>
+    </section>
+
+    <section class="tarjeta">
+        <h2>Amenazas físicas</h2>
+        <p>
+            No todos los incidentes informáticos proceden de Internet.
+            Los equipos también pueden verse afectados por:
+        </p>
+        <ul>
+            <li>Cortes eléctricos y subidas de tensión.</li>
+            <li>Robos o sabotajes de equipos.</li>
+            <li>Incendios, inundaciones y terremotos.</li>
+            <li>Temperaturas excesivas y humedad.</li>
+            <li>Errores humanos y accidentes.</li>
+        </ul>
+        <p>
+            Para reducir estos riesgos se utilizan sistemas de alimentación
+            ininterrumpida (SAI), control de acceso, climatización y detección
+            de incendios.
+        </p>
+    </section>
+
+    <section class="tarjeta">
+        <h2>Análisis de vulnerabilidades</h2>
+        <p>Para mejorar la seguridad hay que seguir tres pasos:</p>
+        <ol>
+            <li><strong>Identificar:</strong> localizar los puntos débiles.</li>
+            <li><strong>Evaluar:</strong> valorar su gravedad y sus posibles consecuencias.</li>
+            <li><strong>Priorizar:</strong> solucionar primero los problemas de mayor riesgo.</li>
+        </ol>
+        <p>
+            Herramientas como OpenVAS y Nessus permiten realizar análisis
+            de vulnerabilidades en sistemas autorizados.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>Seguridad Informática · SAD · 2AS3A</p>
+</footer>
 
 </body>
 </html>
